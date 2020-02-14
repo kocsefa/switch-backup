@@ -1,0 +1,17 @@
+{
+    "host": "mailhost ip yada adı",
+    "port": "587",
+    "sender":"mailsender@mail.com",
+    "senderpass":"senderpass",
+    "_comment":"to kısmına gönderilecek lişiler ',' ile ayrılarak yazılabilir",
+    "to":"mail@mail.com, mail1.mail.com",
+    "subject":"Switch Backup Report",
+    "path": "\\\\file\\path",
+    "_comment1":"username ve password switch arayüzüne bağlanmak için kullanılan bilgilerdir",
+    "username": "username",
+    "password": "password",
+    "switchList": [
+        "10.10.10.10",
+        "10.10.10.11"
+    ]
+}
